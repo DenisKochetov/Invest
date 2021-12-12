@@ -26,6 +26,8 @@
 		31091939273168C300409088 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31091938273168C300409088 /* StockTableViewController.swift */; };
 		3109193B27317A3E00409088 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109193A27317A3E00409088 /* Stock.swift */; };
 		3109193E2754258000409088 /* StockListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109193D2754258000409088 /* StockListController.swift */; };
+		310FBE342765ECD3004BAD3C /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE332765ECD3004BAD3C /* StockViewController.swift */; };
+		310FBE362765F3F7004BAD3C /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE352765F3F7004BAD3C /* StockData.swift */; };
 		31EDB31327543E9E009314BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EDB31227543E9E009314BC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		31091938273168C300409088 /* StockTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
 		3109193A27317A3E00409088 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		3109193D2754258000409088 /* StockListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListController.swift; sourceTree = "<group>"; };
+		310FBE332765ECD3004BAD3C /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		310FBE352765F3F7004BAD3C /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
 		31EDB31227543E9E009314BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				3109193D2754258000409088 /* StockListController.swift */,
+				310FBE332765ECD3004BAD3C /* StockViewController.swift */,
+				310FBE352765F3F7004BAD3C /* StockData.swift */,
 			);
 			path = StockList;
 			sourceTree = "<group>";
@@ -342,9 +348,11 @@
 				3109193E2754258000409088 /* StockListController.swift in Sources */,
 				310918F7271D5EA300409088 /* ViewController.swift in Sources */,
 				310918F3271D5EA300409088 /* AppDelegate.swift in Sources */,
+				310FBE342765ECD3004BAD3C /* StockViewController.swift in Sources */,
 				310918F5271D5EA300409088 /* SceneDelegate.swift in Sources */,
 				31EDB31327543E9E009314BC /* Extensions.swift in Sources */,
 				31091939273168C300409088 /* StockTableViewController.swift in Sources */,
+				310FBE362765F3F7004BAD3C /* StockData.swift in Sources */,
 				31091935273160CD00409088 /* StocksTableViewCell.swift in Sources */,
 				3109193B27317A3E00409088 /* Stock.swift in Sources */,
 				310919312728AEE600409088 /* BuyTableViewCell.swift in Sources */,
