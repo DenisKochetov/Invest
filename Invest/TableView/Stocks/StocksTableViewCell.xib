@@ -28,7 +28,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Amount and price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3d-ce-pn4">
                         <rect key="frame" x="80" y="58" width="154" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="140" id="LN9-gA-z1E"/>
+                            <constraint firstAttribute="width" constant="160" id="LN9-gA-z1E"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" systemColor="systemGray2Color"/>

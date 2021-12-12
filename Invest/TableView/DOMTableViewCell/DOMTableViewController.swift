@@ -33,7 +33,8 @@ final class DOMTableViewController: UIViewController, UITableViewDelegate, UITab
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "BuyTableViewCell", for: indexPath) as! BuyTableViewCell
         cell.sellLabel.text = String(sellData[indexPath.row])
-        cell.priceLabel.text = String(priceData[indexPath.row]) + " $"
+        let currency = currencySymbols[currencies[currentIndex]]
+        cell.priceLabel.text = String(priceData[indexPath.row]) + " \(currency ?? "₽")"
         cell.buyLabel.text = String(buyData[indexPath.row])
         return cell        
     }
