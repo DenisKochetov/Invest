@@ -7,10 +7,6 @@
 
 import Foundation
 import UIKit
-//import StockData
-//import Kingfisher
-
-
 
 
 
@@ -19,7 +15,8 @@ class StockListController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var stockView: UITableView!
     
-//    @IBOutlet weak var balanceVal: UILabel!
+    @IBOutlet weak var operations: UIButton!
+    //    @IBOutlet weak var balanceVal: UILabel!
 
     
 
@@ -33,6 +30,7 @@ class StockListController: UIViewController, UITableViewDelegate, UITableViewDat
         stockView.delegate = self
         stockView.dataSource = self
         
+        operations.imageView?.contentMode = .scaleAspectFit
 //        let tap = UITapGestureRecognizer(target: self, action: #selector(StockListController.tapFunction))
 //            balanceVal.isUserInteractionEnabled = true
 //            balanceVal.addGestureRecognizer(tap)

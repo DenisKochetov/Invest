@@ -22,14 +22,5 @@ class ViewController: UIViewController {
     }
     
     
-    
-    @IBOutlet weak var tapMeButton: UIButton?
-    
-    @IBAction func onButtonDidTap(_ sender: Any) {
-        print("tap")
-//        tapMeButton?.superview?.backgroundColor = .red
-        
-        
-    }
 }
 

@@ -16,7 +16,6 @@
 		3109190A271D5EA700409088 /* InvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31091909271D5EA700409088 /* InvestTests.swift */; };
 		31091914271D5EA700409088 /* InvestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31091913271D5EA700409088 /* InvestUITests.swift */; };
 		31091916271D5EA700409088 /* InvestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31091915271D5EA700409088 /* InvestUITestsLaunchTests.swift */; };
-		31091924271FFF9D00409088 /* Manually.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31091923271FFF9D00409088 /* Manually.swift */; };
 		3109192A2726AE6C00409088 /* DOMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310919292726AE6C00409088 /* DOMTableViewController.swift */; };
 		3109192E2726B09F00409088 /* DOMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109192D2726B09F00409088 /* DOMTableViewCell.swift */; };
 		310919312728AEE600409088 /* BuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109192F2728AEE600409088 /* BuyTableViewCell.swift */; };
@@ -28,6 +27,11 @@
 		3109193E2754258000409088 /* StockListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109193D2754258000409088 /* StockListController.swift */; };
 		310FBE342765ECD3004BAD3C /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE332765ECD3004BAD3C /* StockViewController.swift */; };
 		310FBE362765F3F7004BAD3C /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE352765F3F7004BAD3C /* StockData.swift */; };
+		310FBE3C27661C7B004BAD3C /* OperationsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE3A27661C7B004BAD3C /* OperationsViewCell.swift */; };
+		310FBE3D27661C7B004BAD3C /* OperationsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310FBE3B27661C7B004BAD3C /* OperationsViewCell.xib */; };
+		310FBE4027667DE1004BAD3C /* OperationTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE3F27667DE1004BAD3C /* OperationTableController.swift */; };
+		310FBE4227667EB9004BAD3C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE4127667EB9004BAD3C /* Operations.swift */; };
+		310FBE4427668055004BAD3C /* OperationBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FBE4327668055004BAD3C /* OperationBlock.swift */; };
 		31EDB31327543E9E009314BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EDB31227543E9E009314BC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +66,6 @@
 		3109190F271D5EA700409088 /* InvestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31091913271D5EA700409088 /* InvestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestUITests.swift; sourceTree = "<group>"; };
 		31091915271D5EA700409088 /* InvestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		31091923271FFF9D00409088 /* Manually.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manually.swift; sourceTree = "<group>"; };
 		310919292726AE6C00409088 /* DOMTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOMTableViewController.swift; sourceTree = "<group>"; };
 		3109192D2726B09F00409088 /* DOMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOMTableViewCell.swift; sourceTree = "<group>"; };
 		3109192F2728AEE600409088 /* BuyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTableViewCell.swift; sourceTree = "<group>"; };
@@ -74,6 +77,11 @@
 		3109193D2754258000409088 /* StockListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListController.swift; sourceTree = "<group>"; };
 		310FBE332765ECD3004BAD3C /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		310FBE352765F3F7004BAD3C /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		310FBE3A27661C7B004BAD3C /* OperationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewCell.swift; sourceTree = "<group>"; };
+		310FBE3B27661C7B004BAD3C /* OperationsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationsViewCell.xib; sourceTree = "<group>"; };
+		310FBE3F27667DE1004BAD3C /* OperationTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTableController.swift; sourceTree = "<group>"; };
+		310FBE4127667EB9004BAD3C /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		310FBE4327668055004BAD3C /* OperationBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationBlock.swift; sourceTree = "<group>"; };
 		31EDB31227543E9E009314BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				310919282726AE0400409088 /* TableView */,
-				31091922271FFF7800409088 /* ManuallyCrafted */,
 				310918F2271D5EA300409088 /* AppDelegate.swift */,
 				310918F4271D5EA300409088 /* SceneDelegate.swift */,
 				310918F6271D5EA300409088 /* ViewController.swift */,
@@ -156,17 +163,11 @@
 			path = InvestUITests;
 			sourceTree = "<group>";
 		};
-		31091922271FFF7800409088 /* ManuallyCrafted */ = {
-			isa = PBXGroup;
-			children = (
-				31091923271FFF9D00409088 /* Manually.swift */,
-			);
-			path = ManuallyCrafted;
-			sourceTree = "<group>";
-		};
 		310919282726AE0400409088 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				310FBE3E27667C78004BAD3C /* OperationsTable */,
+				310FBE3727661B95004BAD3C /* Operations */,
 				3109193C275424FA00409088 /* StockList */,
 				310919372731689300409088 /* Stocks */,
 				3109192C2726B04600409088 /* DOMTableViewCell */,
@@ -204,6 +205,25 @@
 				310FBE352765F3F7004BAD3C /* StockData.swift */,
 			);
 			path = StockList;
+			sourceTree = "<group>";
+		};
+		310FBE3727661B95004BAD3C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				310FBE3A27661C7B004BAD3C /* OperationsViewCell.swift */,
+				310FBE3B27661C7B004BAD3C /* OperationsViewCell.xib */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		310FBE3E27667C78004BAD3C /* OperationsTable */ = {
+			isa = PBXGroup;
+			children = (
+				310FBE3F27667DE1004BAD3C /* OperationTableController.swift */,
+				310FBE4127667EB9004BAD3C /* Operations.swift */,
+				310FBE4327668055004BAD3C /* OperationBlock.swift */,
+			);
+			path = OperationsTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310FBE3D27661C7B004BAD3C /* OperationsViewCell.xib in Resources */,
 				310919322728AEE600409088 /* BuyTableViewCell.xib in Resources */,
 				310918FF271D5EA700409088 /* LaunchScreen.storyboard in Resources */,
 				31091936273160CD00409088 /* StocksTableViewCell.xib in Resources */,
@@ -342,13 +363,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31091924271FFF9D00409088 /* Manually.swift in Sources */,
 				3109192E2726B09F00409088 /* DOMTableViewCell.swift in Sources */,
+				310FBE3C27661C7B004BAD3C /* OperationsViewCell.swift in Sources */,
 				3109192A2726AE6C00409088 /* DOMTableViewController.swift in Sources */,
 				3109193E2754258000409088 /* StockListController.swift in Sources */,
 				310918F7271D5EA300409088 /* ViewController.swift in Sources */,
+				310FBE4027667DE1004BAD3C /* OperationTableController.swift in Sources */,
+				310FBE4427668055004BAD3C /* OperationBlock.swift in Sources */,
 				310918F3271D5EA300409088 /* AppDelegate.swift in Sources */,
 				310FBE342765ECD3004BAD3C /* StockViewController.swift in Sources */,
+				310FBE4227667EB9004BAD3C /* Operations.swift in Sources */,
 				310918F5271D5EA300409088 /* SceneDelegate.swift in Sources */,
 				31EDB31327543E9E009314BC /* Extensions.swift in Sources */,
 				31091939273168C300409088 /* StockTableViewController.swift in Sources */,
