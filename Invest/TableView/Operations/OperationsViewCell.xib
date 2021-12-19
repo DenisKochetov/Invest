@@ -60,7 +60,7 @@
                 <outlet property="operationImage" destination="hEI-rX-1Zd" id="57g-wF-BCp"/>
                 <outlet property="operationTitle" destination="Yex-5z-Tg5" id="RiK-qc-65Z"/>
             </connections>
-            <point key="canvasLocation" x="151.44927536231884" y="119.53125"/>
+            <point key="canvasLocation" x="-166" y="66"/>
         </tableViewCell>
     </objects>
 </document>

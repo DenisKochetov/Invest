@@ -7,10 +7,12 @@
 
 import UIKit
 
+
+
 class OperationTableController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return operationBlock.count
-        return operations.count
+        return operationBlock[section].operationList.count ?? 0
+//        return headers.count
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return operationBlock.count
@@ -19,12 +21,17 @@ class OperationTableController: UIViewController, UITableViewDelegate, UITableVi
         return 20.0
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return operationBlock[section].operationDate
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = operationTable.dequeueReusableCell(withIdentifier: "OperationsViewCell", for: indexPath) as! OperationsViewCell
+        let currentRow = operationBlock[indexPath.section].operationList[indexPath.row]
         
-        let currency = currencySymbols[operations[indexPath.row].operationCurrency ?? "dollar"]!
+        let currency = currencySymbols[currentRow.operationCurrency ?? "dollar"]!
 //        let operations = operationBlock[indexPath.row].operationList
-        let amount = operations[indexPath.row].operationAmount ?? 0
+        let amount = currentRow.operationAmount ?? 0
         if amount < 0 {
                 cell.operationAmount.textColor = UIColor.red
         }
@@ -32,16 +39,16 @@ class OperationTableController: UIViewController, UITableViewDelegate, UITableVi
             cell.operationAmount.textColor = UIColor.green
         }
                 
-        cell.operationTitle.text = operations[indexPath.row].operationTitle
+        cell.operationTitle.text = currentRow.operationTitle
         cell.operationAmount.text = "\(amount) \(currency)"
 //        cell.operationAmount.text = "$"
-        cell.operationImage.load(urlString: operations[indexPath.row].operationImage ?? "")
+        cell.operationImage.load(urlString: currentRow.operationImage ?? "")
 
         return cell
     }
  
 
-    
+   
   
     @IBOutlet weak var operationTable: UITableView!
     
@@ -58,7 +65,7 @@ class OperationTableController: UIViewController, UITableViewDelegate, UITableVi
         operations.append(Operations.init(operationTitle: "Stock purchase: Virgin Galactic", operationAmount: -500, operationImage: "https://s3-symbol-logo.tradingview.com/virgin-galactic--600.png", operationCurrency: "dollar"))
         operationBlock.append(OperationBlock.init(operationDate: "16 September", operationList: operations))
         operations2.append(Operations.init(operationTitle: "Balance recharge", operationAmount: 500, operationImage: "https://images.fineartamerica.com/images-medium-5/american-flag--square-wingsdomain-art-and-photography.jpg", operationCurrency: "dollar"))
-        operations = operations + operations2
+//        operations = operations + operations2
         operationBlock.append(OperationBlock.init(operationDate: "2 September", operationList: operations2))
         
         let nib = UINib(nibName: "OperationsViewCell", bundle: nil)
@@ -66,9 +73,13 @@ class OperationTableController: UIViewController, UITableViewDelegate, UITableVi
         operationTable.delegate = self
         operationTable.dataSource = self
         
+
+        
         
         // Do any additional setup after loading the view.
     }
+    
+    
 
     
     
