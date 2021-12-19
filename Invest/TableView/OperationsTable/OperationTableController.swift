@@ -57,7 +57,7 @@ class OperationTableController: UIViewController, UITableViewDelegate, UITableVi
         operations.append(Operations.init(operationTitle: "Dividends payment", operationAmount: 168.9, operationImage: "https://s3-symbol-logo.tradingview.com/virgin-galactic--600.png", operationCurrency: "dollar"))
         operations.append(Operations.init(operationTitle: "Stock purchase: Virgin Galactic", operationAmount: -500, operationImage: "https://s3-symbol-logo.tradingview.com/virgin-galactic--600.png", operationCurrency: "dollar"))
         operationBlock.append(OperationBlock.init(operationDate: "16 September", operationList: operations))
-        operations2.append(Operations.init(operationTitle: "Balance recharge", operationAmount: 500, operationImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/US_flag_large_51_stars.png/800px-US_flag_large_51_stars.png", operationCurrency: "dollar"))
+        operations2.append(Operations.init(operationTitle: "Balance recharge", operationAmount: 500, operationImage: "https://images.fineartamerica.com/images-medium-5/american-flag--square-wingsdomain-art-and-photography.jpg", operationCurrency: "dollar"))
         operations = operations + operations2
         operationBlock.append(OperationBlock.init(operationDate: "2 September", operationList: operations2))
         
