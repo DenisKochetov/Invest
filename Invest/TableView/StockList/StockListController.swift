@@ -30,7 +30,7 @@ class StockListController: UIViewController, UITableViewDelegate, UITableViewDat
         stockView.delegate = self
         stockView.dataSource = self
         
-        operations.imageView?.contentMode = .scaleAspectFit
+//        operations.imageView?.contentMode = .scaleAspectFit
 //        let tap = UITapGestureRecognizer(target: self, action: #selector(StockListController.tapFunction))
 //            balanceVal.isUserInteractionEnabled = true
 //            balanceVal.addGestureRecognizer(tap)
